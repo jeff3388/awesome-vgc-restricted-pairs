@@ -1,0 +1,185 @@
+[
+  {
+    "pair": ["Calyrex-Shadow", "Koraidon"],
+    "tier": "S",
+    "estimatedUsage": "~24%",
+    "synergyScore": 82,
+    "sharedWeaknesses": ["Dark", "Fairy"],
+    "uniqueStrengths": [
+      "Sun auto-weather via Orichalcum Pulse",
+      "Dual physical + special pressure",
+      "Speed control via Tailwind",
+      "Flutter Mane third nuke under Protosynthesis"
+    ],
+    "recommendedSupport": ["Incineroar", "Tornadus", "Amoonguss", "Flutter Mane"],
+    "speedProfile": {
+      "p1": { "name": "Calyrex-Shadow", "baseSpeed": 150, "maxStat": 222, "nature": "Timid", "evs": 252 },
+      "p2": { "name": "Koraidon", "baseSpeed": 135, "maxStat": 179, "nature": "Jolly", "evs": 252 }
+    },
+    "offensiveMode": "mixed",
+    "weatherOrTerrain": "Sun",
+    "notes": "Dominant Reg I pair. Sun boosts Koraidon's Flare Blitz and Collision Course while Calyrex-Shadow's Astral Barrage spreads special damage. Shared Dark/Fairy weakness managed by partner selection."
+  },
+  {
+    "pair": ["Calyrex-Shadow", "Kyogre"],
+    "tier": "S",
+    "estimatedUsage": "~18%",
+    "synergyScore": 79,
+    "sharedWeaknesses": [],
+    "uniqueStrengths": [
+      "No shared weaknesses — complementary defensive profiles",
+      "Dual special nukes (both 150+ SpAtk)",
+      "Rain removes Calyrex-Shadow's Ground weakness",
+      "Cannot be walled by a single Pokémon"
+    ],
+    "recommendedSupport": ["Incineroar", "Amoonguss", "Farigiraf", "Tornadus"],
+    "speedProfile": {
+      "p1": { "name": "Calyrex-Shadow", "baseSpeed": 150, "maxStat": 222, "nature": "Timid", "evs": 252 },
+      "p2": { "name": "Kyogre", "baseSpeed": 90, "maxStat": 156, "nature": "Timid", "evs": 252 }
+    },
+    "offensiveMode": "special",
+    "weatherOrTerrain": "Rain",
+    "notes": "No shared weakness is rare for S-tier restricted pairs. Kyogre often runs Choice Scarf (234 Spd) to outspeed Calyrex-Shadow. Main downside: both are special attackers, making physical walls harder to break without support."
+  },
+  {
+    "pair": ["Calyrex-Shadow", "Zacian"],
+    "tier": "S",
+    "estimatedUsage": "~12%",
+    "synergyScore": 76,
+    "sharedWeaknesses": [],
+    "uniqueStrengths": [
+      "Steel/Fairy answers Dark-types walling Astral Barrage",
+      "Both max speed — no EV conflict",
+      "Fairy STAB neutralizes Dragon resists",
+      "Intrepid Sword +1 Atk on entry"
+    ],
+    "recommendedSupport": ["Incineroar", "Tornadus", "Amoonguss"],
+    "speedProfile": {
+      "p1": { "name": "Calyrex-Shadow", "baseSpeed": 150, "maxStat": 222, "nature": "Timid", "evs": 252 },
+      "p2": { "name": "Zacian", "baseSpeed": 148, "maxStat": 200, "nature": "Jolly", "evs": 252 }
+    },
+    "offensiveMode": "mixed",
+    "weatherOrTerrain": null,
+    "notes": "Zacian's Steel/Fairy typing directly counters the Dark-types (Incineroar, Grimmsnarl) that immunise Ghost moves. Combined speed covers almost every restricted without Tailwind. Shared vulnerability: Fire and Ground."
+  },
+  {
+    "pair": ["Calyrex-Shadow", "Calyrex-Ice"],
+    "tier": "A",
+    "estimatedUsage": "~8%",
+    "synergyScore": 71,
+    "sharedWeaknesses": ["Dark", "Ghost"],
+    "uniqueStrengths": [
+      "Dual-mode team: fast mode (Calyrex-Shadow) or Trick Room mode (Calyrex-Ice)",
+      "Opponent cannot prepare for both speed modes simultaneously",
+      "165 Atk + 165 SpAtk combined offensive ceiling"
+    ],
+    "recommendedSupport": ["Cresselia", "Incineroar", "Amoonguss", "Hatterene"],
+    "speedProfile": {
+      "p1": { "name": "Calyrex-Shadow", "baseSpeed": 150, "maxStat": 222, "nature": "Timid", "evs": 252 },
+      "p2": { "name": "Calyrex-Ice", "baseSpeed": 50, "maxStat": 76, "nature": "Brave", "evs": 0 }
+    },
+    "offensiveMode": "mixed",
+    "weatherOrTerrain": null,
+    "notes": "Twin Crown pair. Requires dedicated TR setters. Shared Dark/Ghost weakness is a liability. High upside from mode-switching unpredictability at tournaments."
+  },
+  {
+    "pair": ["Koraidon", "Kyogre"],
+    "tier": "A",
+    "estimatedUsage": "~7%",
+    "synergyScore": 68,
+    "sharedWeaknesses": [],
+    "uniqueStrengths": [
+      "Dual weather forcing — Sun vs Rain pivot strategy",
+      "No shared weaknesses",
+      "Opponent must commit to one weather answer"
+    ],
+    "recommendedSupport": ["Incineroar", "Amoonguss", "Tornadus"],
+    "speedProfile": {
+      "p1": { "name": "Koraidon", "baseSpeed": 135, "maxStat": 179, "nature": "Jolly", "evs": 252 },
+      "p2": { "name": "Kyogre", "baseSpeed": 90, "maxStat": 156, "nature": "Timid", "evs": 252 }
+    },
+    "offensiveMode": "mixed",
+    "weatherOrTerrain": "Sun/Rain",
+    "notes": "Unique anti-meta approach. Lead Kyogre for Rain OHKO opportunities, pivot to Koraidon for Sun offense. Incoherent internal synergy is the trade-off for this unpredictability."
+  },
+  {
+    "pair": ["Miraidon", "Calyrex-Shadow"],
+    "tier": "A",
+    "estimatedUsage": "~5%",
+    "synergyScore": 66,
+    "sharedWeaknesses": ["Dark", "Ghost"],
+    "uniqueStrengths": [
+      "Both benefit from Psychic Terrain (blocks priority)",
+      "Hadron Engine + Expanding Force dual spread option",
+      "Extremely high special damage ceiling"
+    ],
+    "recommendedSupport": ["Indeedee-F", "Farigiraf", "Amoonguss"],
+    "speedProfile": {
+      "p1": { "name": "Miraidon", "baseSpeed": 135, "maxStat": 179, "nature": "Timid", "evs": 252 },
+      "p2": { "name": "Calyrex-Shadow", "baseSpeed": 150, "maxStat": 222, "nature": "Timid", "evs": 252 }
+    },
+    "offensiveMode": "special",
+    "weatherOrTerrain": "Electric Terrain",
+    "notes": "Electric Terrain and Psychic Terrain are mutually exclusive. Teams typically commit to one. High ceiling but complex execution. Both are physically frail."
+  },
+  {
+    "pair": ["Koraidon", "Groudon"],
+    "tier": "B",
+    "estimatedUsage": "~4%",
+    "synergyScore": 61,
+    "sharedWeaknesses": ["Water", "Ice"],
+    "uniqueStrengths": [
+      "Double Sun guarantee — Drought and Orichalcum Pulse overlap",
+      "Groudon's Ground typing covers Koraidon's Electric weakness",
+      "Precipice Blades spread + Collision Course physical pressure"
+    ],
+    "recommendedSupport": ["Incineroar", "Tornadus", "Flutter Mane"],
+    "speedProfile": {
+      "p1": { "name": "Koraidon", "baseSpeed": 135, "maxStat": 179, "nature": "Jolly", "evs": 252 },
+      "p2": { "name": "Groudon", "baseSpeed": 90, "maxStat": 156, "nature": "Adamant", "evs": 252 }
+    },
+    "offensiveMode": "physical",
+    "weatherOrTerrain": "Sun",
+    "notes": "Double Sun archetype. Groudon provides Drought fallback if Koraidon is KO'd. Both are slow for a non-TR pair — heavily Tailwind dependent."
+  },
+  {
+    "pair": ["Kyogre", "Calyrex-Ice"],
+    "tier": "B",
+    "estimatedUsage": "~3%",
+    "synergyScore": 58,
+    "sharedWeaknesses": ["Grass"],
+    "uniqueStrengths": [
+      "Rain + Trick Room — two separate game plans",
+      "Glacial Lance spread under TR",
+      "Blizzard 100% accuracy in Rain"
+    ],
+    "recommendedSupport": ["Incineroar", "Hatterene", "Farigiraf"],
+    "speedProfile": {
+      "p1": { "name": "Kyogre", "baseSpeed": 90, "maxStat": 156, "nature": "Timid", "evs": 252 },
+      "p2": { "name": "Calyrex-Ice", "baseSpeed": 50, "maxStat": 76, "nature": "Brave", "evs": 0 }
+    },
+    "offensiveMode": "special",
+    "weatherOrTerrain": "Rain",
+    "notes": "Kyogre does not set TR, so Calyrex-Ice needs dedicated setter support not covered by the restricted pair itself. Grass weakness shared."
+  },
+  {
+    "pair": ["Zacian", "Zamazenta"],
+    "tier": "B",
+    "estimatedUsage": "~1%",
+    "synergyScore": 55,
+    "sharedWeaknesses": ["Fire", "Ground"],
+    "uniqueStrengths": [
+      "Intrepid Sword + Dauntless Shield entry bonuses",
+      "Fairy/Fighting + Fighting/Steel dual STAB coverage",
+      "Both 148 base Speed — unified speed tier"
+    ],
+    "recommendedSupport": ["Incineroar", "Amoonguss", "Tornadus"],
+    "speedProfile": {
+      "p1": { "name": "Zacian", "baseSpeed": 148, "maxStat": 200, "nature": "Jolly", "evs": 252 },
+      "p2": { "name": "Zamazenta", "baseSpeed": 148, "maxStat": 200, "nature": "Jolly", "evs": 252 }
+    },
+    "offensiveMode": "physical",
+    "weatherOrTerrain": null,
+    "notes": "Sibling pair. Shared Fire/Ground weakness is severe. Zamazenta's offensive ceiling is lower than other restricted options, reducing overall pair pressure."
+  }
+]
