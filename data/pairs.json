@@ -181,5 +181,110 @@
     "offensiveMode": "physical",
     "weatherOrTerrain": null,
     "notes": "Sibling pair. Shared Fire/Ground weakness is severe. Zamazenta's offensive ceiling is lower than other restricted options, reducing overall pair pressure."
+  },
+  {
+    "pair": ["Calyrex-Shadow", "Mewtwo"],
+    "tier": "A",
+    "estimatedUsage": "~6%",
+    "synergyScore": 71,
+    "sharedWeaknesses": ["Ghost", "Dark"],
+    "uniqueStrengths": [
+      "Dual Psychic/Ghost coverage pressure",
+      "Mewtwo Psystrike calculates against physical Defense — bypasses SpDef walls like Cresselia",
+      "Calyrex-Shadow As One removes Berries, enabling Mewtwo to bypass Sitrus recovery",
+      "Combined 154 + 165 SpAtk — hardest special duo to wall in the format"
+    ],
+    "recommendedSupport": ["Incineroar", "Tornadus", "Farigiraf", "Amoonguss"],
+    "speedProfile": {
+      "p1": { "name": "Calyrex-Shadow", "baseSpeed": 150, "maxStat": 222, "nature": "Timid", "evs": 252 },
+      "p2": { "name": "Mewtwo", "baseSpeed": 130, "maxStat": 188, "nature": "Timid", "evs": 252 }
+    },
+    "offensiveMode": "special",
+    "weatherOrTerrain": "Psychic Terrain",
+    "notes": "Shared Ghost and Dark weakness is the main liability — both fold to Kingambit Sucker Punch. Psychic Terrain support boosts both STAB moves and blocks priority against them simultaneously. Farigiraf provides Armor Tail + Psychic Terrain in one slot."
+  },
+  {
+    "pair": ["Koraidon", "Calyrex-Ice"],
+    "tier": "A",
+    "estimatedUsage": "~5%",
+    "synergyScore": 68,
+    "sharedWeaknesses": ["Fairy", "Ice"],
+    "uniqueStrengths": [
+      "Sun boosts Flare Blitz for Koraidon and Fire-type coverage for Calyrex-Ice's weaknesses",
+      "Calyrex-Ice handles Rock and Steel types that threaten Koraidon",
+      "Dual physical spread pressure — Glacial Lance + Collision Course both spread damage",
+      "Trick Room access gives speed-control flexibility against faster teams"
+    ],
+    "recommendedSupport": ["Incineroar", "Porygon2", "Cresselia", "Amoonguss"],
+    "speedProfile": {
+      "p1": { "name": "Koraidon", "baseSpeed": 135, "maxStat": 205, "nature": "Jolly", "evs": 252 },
+      "p2": { "name": "Calyrex-Ice", "baseSpeed": 50, "maxStat": 49, "nature": "Brave", "evs": 0, "ivs": 0 }
+    },
+    "offensiveMode": "physical",
+    "weatherOrTerrain": "Sun",
+    "notes": "Physical spread pair that operates in both normal and Trick Room modes. Calyrex-Ice anchors slow mode; Koraidon operates in fast mode. Main weakness: Glacial Lance is Ice-type — shared Ice vulnerability means both fold to opposing Ice coverage."
+  },
+  {
+    "pair": ["Kyogre", "Zacian"],
+    "tier": "B",
+    "estimatedUsage": "~4%",
+    "synergyScore": 64,
+    "sharedWeaknesses": ["Fire", "Ground"],
+    "uniqueStrengths": [
+      "Kyogre Rain negates Zacian Fire weakness — allows Zacian to Tera freely without Fire coverage concern",
+      "Zacian Close Combat threatens Steel-types that resist Kyogre Origin Pulse",
+      "Zacian at 200 Speed + Kyogre Scarf (181) provides speed control across two restricted slots",
+      "Fairy + Water dual STAB — difficult to resist simultaneously"
+    ],
+    "recommendedSupport": ["Incineroar", "Amoonguss", "Urshifu-Rapid-Strike", "Tornadus"],
+    "speedProfile": {
+      "p1": { "name": "Kyogre", "baseSpeed": 90, "maxStat": 156, "nature": "Timid", "evs": 252 },
+      "p2": { "name": "Zacian", "baseSpeed": 148, "maxStat": 200, "nature": "Jolly", "evs": 252 }
+    },
+    "offensiveMode": "mixed",
+    "weatherOrTerrain": "Rain",
+    "notes": "Emerging pair in Reg I. Rain removes Zacian's Fire weakness, enabling more aggressive play. Shared Ground weakness means both fall to Precipice Blades / Earthquake — Great Tusk or Landorus-Therian support helps cover this."
+  },
+  {
+    "pair": ["Miraidon", "Calyrex-Ice"],
+    "tier": "B",
+    "estimatedUsage": "~3%",
+    "synergyScore": 60,
+    "sharedWeaknesses": ["Ghost", "Dragon", "Fairy", "Ice"],
+    "uniqueStrengths": [
+      "Electric Terrain boosts Miraidon and powers Iron Hands Quark Drive",
+      "Calyrex-Ice Trick Room operates independently of terrain — flip mode available",
+      "Calyrex-Ice Glacial Lance covers Miraidon's Dragon/Ice weakness targets",
+      "Miraidon Thunderbolt handles Water-types that threaten Calyrex-Ice"
+    ],
+    "recommendedSupport": ["Iron Hands", "Porygon2", "Incineroar", "Amoonguss"],
+    "speedProfile": {
+      "p1": { "name": "Miraidon", "baseSpeed": 135, "maxStat": 205, "nature": "Timid", "evs": 252 },
+      "p2": { "name": "Calyrex-Ice", "baseSpeed": 50, "maxStat": 49, "nature": "Brave", "evs": 0, "ivs": 0 }
+    },
+    "offensiveMode": "mixed",
+    "weatherOrTerrain": "Electric Terrain",
+    "notes": "Four shared weaknesses makes this pair vulnerable to opposing coverage. The appeal is dual mode operation: Electric Terrain fast mode + Trick Room slow mode. Uncommon in top-cut but notable for forcing opponent preparation for two distinct team modes."
+  },
+  {
+    "pair": ["Rayquaza", "Calyrex-Shadow"],
+    "tier": "B",
+    "estimatedUsage": "~3%",
+    "synergyScore": 62,
+    "sharedWeaknesses": ["Ghost", "Dark", "Ice"],
+    "uniqueStrengths": [
+      "Rayquaza Air Lock cancels opposing weather — neutralises Kyogre and Koraidon simultaneously",
+      "Calyrex-Shadow As One suppresses Berries on both sides — no Sitrus recovery for opponents under Air Lock",
+      "Rayquaza Dragon Ascent removes its Levitate immunity but gains -1 Def: Calyrex covers physical threats",
+      "Air Lock + Astral Barrage is uniquely difficult to prepare for in weather-dominated meta"
+    ],
+    "recommendedSupport": ["Incineroar", "Amoonguss", "Flutter Mane", "Tornadus"],
+    "speedProfile": {
+      "p1": { "name": "Rayquaza", "baseSpeed": 95, "maxStat": 160, "nature": "Timid", "evs": 252 },
+      "p2": { "name": "Calyrex-Shadow", "baseSpeed": 150, "maxStat": 222, "nature": "Timid", "evs": 252 }
+    },
+    "offensiveMode": "mixed",
+    "weatherOrTerrain": null,
+    "notes": "Anti-weather control pair. Rock ×4 weakness on Rayquaza is the biggest liability — Rock Slide flinch can shut down Rayquaza before Air Lock activates. Best used as a weather counter in best-of-3 series where opponent has committed to weather."
   }
 ]
